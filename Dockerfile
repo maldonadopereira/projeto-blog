@@ -1,8 +1,8 @@
+#Dockerfile
 FROM python:3.11.3-alpine3.18
 LABEL manteiner="maldonadopereira@gmail.com"
 
 ENV PYTHONDONTWRITEBYTECODE 1
-
 ENV PYTHONUNBUFFERED 1
 
 COPY ./djangoapp /djangoapp
